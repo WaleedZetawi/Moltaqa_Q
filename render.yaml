@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: moltaqa-q-service
+    env: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: node server.js
+    branch: main
+    repo: https://github.com/WaleedZetawi/Moltaqa_Q
